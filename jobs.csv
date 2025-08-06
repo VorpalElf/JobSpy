@@ -1,7 +1,486 @@
 "id","site","job_url","job_url_direct","title","company","location","date_posted","job_type","salary_source","interval","min_amount","max_amount","currency","is_remote","job_level","job_function","listing_type","emails","description","company_industry","company_url","company_logo","company_url_direct","company_addresses","company_num_employees","company_revenue","company_description","skills","experience_range","company_rating","company_reviews_count","vacancy_count","work_from_home_type"
-"li-4277720057","linkedin","https://www.linkedin.com/jobs/view/4277720057","","Data Analyst","IFRS Foundation","London Area, United Kingdom","2025-08-04","","","","","","",False,"","","","","","","https://uk.linkedin.com/company/ifrs-foundation","","","","","","","","","","","",""
-"li-4277571782","linkedin","https://www.linkedin.com/jobs/view/4277571782","","Insights Analyst","AstraZeneca","City Of London, England, UK","2025-08-01","","","","","","",False,"","","","","","","https://uk.linkedin.com/company/astrazeneca","","","","","","","","","","","",""
-"li-4277581023","linkedin","https://www.linkedin.com/jobs/view/4277581023","","Data Analyst","CereCore","England, United Kingdom","2025-08-01","","","","","","",False,"","","","","","","https://www.linkedin.com/company/cerecore-tech","","","","","","","","","","","",""
+"li-4277720057","linkedin","https://www.linkedin.com/jobs/view/4277720057","","Data Analyst","IFRS Foundation","London Area, United Kingdom","2025-08-04","fulltime","","","","","",False,"mid-senior level","Information Technology, Finance, and Human Resources","","","**Status** 
+ : 6 month Fixed Term Contract
+ 
+
+
+
+**Reports to:** 
+ Global Payroll Manager
+ 
+
+
+
+**Works with:** 
+ Finance Team
+ 
+
+
+
+**Job Purpose** 
+
+
+
+
+ Finance team: The role is to support the payroll team in managing and improving data quality, reconciliation and reporting during a period of high operational demand. The role is essential for ensuring accurate payroll reporting, supporting the rollout of a Global Payroll Provider and preparing for upcoming compliance requirements.
+ 
+
+
+
+  
+
+
+
+
+
+**Principal accountabilities** 
+
+
+
+
+***Data Cleansing \\& Validation***
+
+
+
+* Clean, structure, and validate large payroll data to ensure accuracy and consistency (both for current operations and during the roll out of the Global Payroll provider).
+* Identify and correct anomalies in payroll and accounting data
+* Collaborate with Payroll, HR and Finance teams to ensure data alignment, particularly within the HiBob platform.
+
+
+
+***Reconciliations***
+
+
+
+* Perform regular reconciliations between payroll records and general ledger accounts.
+* Investigate and resolve discrepancies in payroll transactions and accounting entries.
+
+
+
+***Budget \\& Variance Analysis, Reporting***
+
+
+
+* Assist in preparing payroll\\-related budget forecasts.
+* Analyse actual payroll costs against budgeted figures and explain variances.
+* Provide monthly variance reports with actionable insights.
+* Maintain year\\-to\\-date payroll reports and audit packs.
+* Support audits and compliance checks with accurate data and documentation.
+* Respond to ad hoc data requests from senior management and external auditors.
+* Assist in preparing data and reports for the mandatory payrolling of Benefits in Kind (BiKs) starting April 2026\\.
+* Process optimisation \\- Identify inefficiencies in workflows and streamline payroll processes
+
+
+
+***UAT Testing – Global Payroll Project***
+
+
+
+* Lead testing and reconciliation during parallel runs for the Global Payroll Provider rollout.
+
+
+
+**Skills And Attributes** 
+
+
+
+* Proven experience in data analysis within payroll or finance.
+* Strong Excel and data manipulation skills; experience with HiBob is a plus.
+* Familiarity with payroll systems, accounting principles, and compliance requirements.
+* Analytical mindset with attention to detail.
+* Ability to work collaboratively across departments.
+* Experience supporting audits and compliance processes is desirable.
+* Strong communication and documentation skills.
+
+
+
+  
+
+
+
+
+
+**Essential** 
+
+
+
+
+**Qualifications and experience** 
+
+
+
+* Strong proficiency in Microsoft Excel, including advanced functions (e.g. pivot tables, lookups, data validation).
+* Experience working with large datasets and performing data cleansing, transformation and validation.
+* **Solid understanding of payroll processes, accounting principles, and financial reconciliations** 
+ .
+* Familiarity with HRIS and payroll systems (e.g. HiBob, Moorepay, Papaya, Justworks or similar platforms).
+* Demonstrated ability to produce clear, accurate and insightful reports for stakeholders.
+* Experience supporting audits and compliance reporting.
+* Strong analytical and problem\\-solving skills with high attention to detail.
+* Excellent communication and interpersonal skills, with the ability to collaborate across departments.
+* Ability to manage multiple priorities and meet deadlines in a fast\\-paced environment.
+
+
+
+  
+
+
+
+
+
+**Preferred** 
+
+
+
+* Experience working within a global or multi\\-country payroll environment.
+* Experience participating in system implementations or UAT testing phases.
+* Ability to document processes and create user\\-friendly guides
+
+
+
+  
+
+
+
+
+
+**Application Closing Date:** 
+ 22nd August 2025
+ 
+
+
+
+ Please note that while we have a closing date for this application, we reserve the right to interview candidates and potentially close the role early should we find a suitable candidate before the closing date.
+ 
+
+
+
+  
+
+
+
+
+
+***Help shape the future of reporting for global financial markets***
+
+
+
+
+ The IFRS Foundation is a public interest, not\\-for profit organisation that sets corporate reporting standards for the capital markets globally. IFRS Accounting Standards are required for use by more than 140 countries whilst IFRS Sustainability Disclosure Standards are rapidly becoming the global baseline for sustainability disclosures worldwide.
+ 
+
+
+
+ We are a highly diverse and inclusive organisation. Our 350\\+ staff come from more than 45\\+ different countries and are united in supporting the mission of the Foundation to bring transparency, accountability and efficiency to capital markets worldwide. With offices in London, Frankfurt, Montreal, Tokyo, Beijing and San Francisco, the Foundation is truly a global standard\\-setter.","Accounting","https://uk.linkedin.com/company/ifrs-foundation","https://media.licdn.com/dms/image/v2/C560BAQFB3PtmGHSM3Q/company-logo_100_100/company-logo_100_100/0/1671466347376/ifrs_foundation_logo?e=2147483647&v=beta&t=TEgeddD7veIoMJCiWK7N08roXr-eozH0-on-Fhvd-3I","","","","","","","","","","",""
+"li-4277571782","linkedin","https://www.linkedin.com/jobs/view/4277571782","","Insights Analyst","AstraZeneca","City Of London, England, UK","2025-08-01","temporary","","","","","",True,"mid-senior level","Analyst and Information Technology","","","**Role:** 
+ Business Insights Analyst
+ 
+
+
+
+**Role Type:** 
+ Temporary – 6 Months – Full Time
+ 
+
+
+
+**Location:** 
+ London – St. Pancras – x3 Days On\\-Site per week / x2 days Working Remote
+ 
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+**Your New Company**
+
+
+
+
+  
+
+
+
+
+
+ As a Business Insights Analyst you will be working within the UK Oncology Insights and Analytics team to provide relevant insights and analysis to enable an optimal diagnosis of our business performance.
+ 
+
+
+
+  
+
+
+
+
+
+ In this regard, the Business Insights Analyst will be responsible for analysing different data sources (sales data, competitive insights, activity, etc.) to generate insights aimed at delivering competitive advantage. In addition, the incumbent will also contribute to critical business processes connected to data automation, brand planning and financial planning.
+ 
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+**Your New Role**
+
+
+
+
+  
+
+
+
+
+* Generate insights on patients, customers and NHS as well as brands, markets and TA by analysing multiple data sources to inform and influence business decisions
+* Deliver performance analytics on priority brands by (1\\) identifying patterns within the data, (2\\) uncovering insights / brand opportunities and (3\\) articulate useful recommendations
+* Support strategic planning and financial planning processes
+* Support data and analytics automation processes
+* Working closely with the BUs, develop a thorough understanding of current key business issues and provide solutions to support BU decision making
+* Proactively identifies blind spots and opportunities in terms of unanswered business questions and insights
+* Drive compliant processes according to AZ SoPs and Code of conduct
+
+
+
+  
+
+
+
+
+
+**Essential Skills**
+
+
+
+
+  
+
+
+
+
+* 3 to 5 years of experience in analytical or insights generation roles
+* Analytical skills, strong excel \\+ power point skills
+* Knowledge of NHS and the pharma industry – Oncology advantageous
+* Ability to distil impactful insights out of different data
+* Proven track record of working with senior stakeholders in a complex environment
+* Self\\-starter who can face challenges with positive attitude
+
+
+
+  
+
+
+
+
+
+**Desirable Skills**
+
+
+
+
+  
+
+
+
+
+* Oncology knowledge / experience
+* Experience with PowerBI
+* Pharma Sales \\& Marketing experience
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+**WHY ASTRAZENECA?** 
+
+
+
+
+  
+
+
+
+
+
+ It's an exciting time to join AstraZeneca, a global business that's rapidly growing \\- there's a lot happening and even more to come. And we are a valued part of this journey. Respected partners across the business, we provide the platform that's going to power us to achieve more.
+ 
+
+
+
+  
+
+
+
+
+
+**So, what's next?** 
+
+
+
+
+  
+
+
+
+
+
+ Are you ready to bring new insights and fresh thinking to the table? Brilliant! We have one seat available, and we hope it's yours. Please apply with a copy of your CV.","Pharmaceutical Manufacturing","https://uk.linkedin.com/company/astrazeneca","https://media.licdn.com/dms/image/v2/C4E0BAQEuFlOA7pBVJw/company-logo_100_100/company-logo_100_100/0/1663748570969/astrazeneca_logo?e=2147483647&v=beta&t=BCPWjufeysrT_XeEdD2tojet6iz5xZQvJWlTjbqcDHw","","","","","","","","","","",""
+"li-4277581023","linkedin","https://www.linkedin.com/jobs/view/4277581023","","Data Analyst","CereCore","England, United Kingdom","2025-08-01","fulltime","","","","","",True,"associate","Information Technology","","","**Data Analyst – NHS SQL \\+ Power BI** 
+
+
+
+
+**12\\-month Fixed\\-Term Contract** 
+
+
+
+
+ Remote (UK\\-based)
+ 
+
+
+
+ Circa £40k
+ 
+
+
+
+  
+
+
+
+
+
+ CereCore International partners with NHS organisations across the UK to deliver impactful, data\\-driven solutions that support clinical and operational improvement. We are currently seeking a
+ **Data Analyst** 
+ to join our team on a
+ **12\\-month fixed\\-term contract** 
+ , working across a
+ **range of client projects.** 
+
+
+
+
+  
+
+
+
+
+
+ You’ll play a key role in helping NHS trusts improve reporting accuracy, automate data pipelines, and strengthen statutory and performance reporting – particularly where recovery or turnaround is required.
+ 
+
+
+
+  
+
+
+
+
+
+**Key Responsibilities** 
+
+
+
+* Deliver high\\-quality reporting using
+ **SQL** 
+ and
+ **Power BI** 
+ , aligned with national NHS reporting standards
+* Support
+ **mandatory and statutory reporting** 
+ across large, complex NHS data sets
+* Collaborate with NHS operational and BI teams to improve data accuracy, validation, and reporting logic
+* Build automated pipelines and streamline reporting outputs
+* Engage with clinical and performance stakeholders to gather data requirements and translate into actionable insights
+* Provide guidance on NHS commissioning data sets, metrics, and compliance standards
+
+
+
+  
+
+
+
+
+
+**Required Skills \\& Experience** 
+
+
+
+* Proven ability to write advanced
+ **SQL queries** 
+ across large NHS datasets
+* Experience creating dashboards and visual reports in
+ **Power BI**
+* Strong working knowledge of
+ **NHS data structures** 
+ (including commissioning data, statutory returns, KPIs, etc.)
+* Experience working within or supporting
+ **Acute BI or Performance** 
+ teams
+* Excellent attention to detail, with the ability to validate and troubleshoot datasets independently
+* Strong communicator, able to work with urgency on time\\-sensitive reporting projects
+
+
+
+  
+
+
+
+
+
+**Desirable** 
+
+
+
+* Familiarity with
+ **real\\-time or automated reporting solutions**
+* Experience supporting
+ **turnaround or recovery** 
+ initiatives within NHS trusts
+* Understanding of
+ **NHS data quality and IG standards**
+
+
+
+  
+
+
+
+
+
+ This is a
+ **fixed\\-term consulting position** 
+ within CereCore International, offering exposure to a variety of NHS clients and high\\-impact reporting workstreams. You’ll join a growing consulting team and play a hands\\-on role in delivering measurable outcomes across healthcare settings.","IT Services and IT Consulting and Hospitals and Health Care","https://www.linkedin.com/company/cerecore-tech","https://media.licdn.com/dms/image/v2/C4D0BAQE76wPkzFHJvA/company-logo_100_100/company-logo_100_100/0/1631818010435/cerecore_tech_logo?e=2147483647&v=beta&t=-PYqLf_S2R95JQMwNZn5OdUt8Dy8h2UDUmca3kXX8SY","","","","","","","","","","",""
 "li-4279014230","linkedin","https://www.linkedin.com/jobs/view/4279014230","","Data Analyst","Aspect","London Area, United Kingdom","2025-08-01","fulltime","","","","","",False,"entry level","Information Technology","","","At
  **Aspect** 
  , we’re entering an exciting phase of growth. With over 15 years in the industry, thousands of customers served every month, and a reputation for 24/7 reliability, we’re scaling rapidly, and we know that smart, curious analysts will be key to our continued success.
@@ -85,9 +564,457 @@
 
 
  Apply now or reach out to learn more. Let’s grow together.","Facilities Services","https://uk.linkedin.com/company/aspect-maintenance-ltd","https://media.licdn.com/dms/image/v2/D4D0BAQE1UrqWjKrDBQ/company-logo_100_100/company-logo_100_100/0/1720603647515/aspect_maintenance_ltd_logo?e=2147483647&v=beta&t=j3Y-FE9oeaH-5-bgCe1VJPJoccqu5UJxJ3Ievy5UqNw","","","","","","","","","","",""
-"li-4221294140","linkedin","https://www.linkedin.com/jobs/view/4221294140","","Data Analyst, Reporting & Operations","Publicis Groupe UK","London, England, UK","2025-07-28","","","","","","",False,"","","","","","","https://uk.linkedin.com/company/publicisgroupeuk","","","","","","","","","","","",""
-"li-4274753801","linkedin","https://www.linkedin.com/jobs/view/4274753801","","Junior Data Analyst","Intellect Group","London Area, United Kingdom","2025-07-23","","","","","","",False,"","","","","","","https://uk.linkedin.com/company/intellectgroup","","","","","","","","","","","",""
-"li-4271338490","linkedin","https://www.linkedin.com/jobs/view/4271338490","","Data Analyst","YunoJuno","London Area, United Kingdom","2025-07-23","","","","","","",False,"","","","","","","https://uk.linkedin.com/company/yunojuno","","","","","","","","","","","",""
+"li-4221294140","linkedin","https://www.linkedin.com/jobs/view/4221294140","","Data Analyst, Reporting & Operations","Publicis Groupe UK","London, England, UK","2025-07-28","fulltime","","","","","",True,"not applicable","Information Technology","","","****OVERVIEW****
+**Company description**
+ Publicis Groupe is one of the world’s largest communications holding companies, present in over 110 countries and employing about 100,000 professionals.. The Groupe is positioned at every step of the value chain, from consulting to execution, combining marketing transformation and digital business transformation.
+   
+
+  
+
+**HELPING OUR CLIENTS UNLOCK GROWTH IN THE PLATFORM WORLD**
+ Our clients compete in the platform world, a horizontal marketplace between creators and consumers, between speakers and listeners, between buyers and sellers. To thrive in the platform world, companies must continue to innovate their products and business models. Four imperatives (1\\. Real Identity, 2\\. Dynamic, Diverse and Disruptive Creativity 3\\., Smart Media and 4\\. Direct Relationships) via our suite of world\\-class agencies, are necessary for modern brands to win in the platform world. At Publicis Groupe, we’ve invested in capabilities across these four imperatives our clients need to unlock growth. As the only one who can architect, build and orchestrate end to end solutions, not only do we have a proven record of building bespoke models for clients and leading expertise across all major industry categories, we are able to offer our talents more opportunities to grow and benefit from a richer learning experience. We call this Power of One. Powered by a 100,000\\-strong network via Marcel, our AI\\-based platform, we are also able to provide our clients and talents instant access to resource, knowledge for any need, any time, in any market.
+   
+
+  
+
+**THE SPIRIT OF VIVA LA DIFFERENCE**
+ Viva La Difference is deeply rooted in everything we do. It has always been in our DNA. From the birth of Publicis, 94 years ago, when Marcel Bleustein\\-Blanchet, our founder, invented French advertising. Viva La Difference expresses how we value and respect each individual and recognize what makes us distinctive. This is the charge that inspires our teams to celebrate the differences in identity, background, culture, and experience of all of us. It is how we behave with each other and our clients, and it is deeply rooted throughout our work, to elevate and bring to life our differences throughout the platform world.
+   
+
+  
+
+****Overview****
+ At Publicis Groupe, we believe in the power of data to transform how brands connect with people. Our
+ **Data Solutions team** 
+ leads a Groupe\\-wide initiative focused on delivering best\\-in\\-class reporting and data solutions for some of the world’s most iconic brands. We work hand\\-in\\-hand with client teams, analysts, and tech specialists to build scalable, intelligent reporting frameworks that drive insight and action.
+   
+
+  
+
+ We’re now looking for a
+ **Data Analyst, Reporting \\& Operations** 
+ to join our growing team and help bridge the gap between business and tech. If you thrive at the intersection of analytics, systems thinking, and client service—this role is for you.
+   
+
+  
+
+****Responsibilities****
+ As a
+ **Data Analyst, Reporting \\& Operations** 
+ , you’ll serve as the strategic link between client\\-facing teams and our technical developers—translating complex requirements into clear, deliverable solutions. Your focus will span data integrations, API connectors, reporting development, and dashboard functionality. Expect to lead projects end\\-to\\-end, working across teams to deliver smart, scalable, and elegant data solutions.
+   
+
+  
+
+**Client \\& Stakeholder Leadership**
+* Be a trusted partner to internal client teams, ensuring expectations are met with clear timelines, technical support, and transparent communication
+* Lead regular check\\-ins to align on goals, capture feedback, and proactively surface new needs
+* Maintain a detailed understanding of project status and ensure best\\-in\\-class service delivery
+
+
+**Data Integration \\& Testing**
+* Own the setup and maintenance of API connectors and automated reporting pipelines
+* Validate data quality, perform regression testing, and ensure KPI definitions match client narratives
+* Collaborate with technical teams to guarantee dashboard integrity and address any discrepancies
+
+
+**Reporting \\& Dashboard Development**
+* Create dashboard wireframes, gather input from client teams, and translate into development\\-ready briefs
+* Oversee QA processes with Data Governance and the BI team
+* Coordinate testing, troubleshooting, and resolution of reporting issues
+* Safely manage data sharing with non\\-Publicis users in line with security standards
+
+
+****Qualifications****
+ ✔ Experience in a data, operations, or analytics\\-focused role
+   
+
+  
+
+ ✔ Familiarity with BI and reporting platforms such as Power BI, Datorama, Data Studio, Databricks, SQL
+   
+
+  
+
+ ✔ Strong communication skills and a collaborative, solutions\\-focused mindset
+   
+
+  
+
+ ✔ An organised, proactive approach—comfortable working across teams and timelines
+   
+
+  
+
+ ✔ Excitement for new technology, data storytelling, and digital marketing innovation
+   
+
+  
+
+ ✔ A team player who’s passionate about making data work harder, smarter, and more creatively
+   
+
+  
+
+****Benefits:****
+**Additional information**
+ In The UK, Alongside The Core Benefits Such As
+ **Pension, Life Assurance, Private Medical,** 
+ And
+ **Income Protection Plan** 
+ , We Also Offer:
+   
+
+  
+
+* WORK YOUR WORLD opportunity to work anywhere in the world, where there is a Publicis office, for up to 6 weeks a year.
+* REFLECTION DAYS \\- Two additional days of paid leave to step away from your usual day\\-to\\-day work and create time to focus on your well\\-being and self\\-care.
+* HELP@HAND BENEFITS 24/7 helpline to support you on a personal and professional level. Access to remote GPs, mental health support and CBT. Wellbeing content and lifestyle coaching.
+* FAMILY FRIENDLY POLICIES We provide 26 weeks of full pay for the following family milestones: Maternity. Adoption, Surrogacy and Shared Parental Leave.
+* FLEXIBLE WORKING, BANK HOLIDAY SWAP \\& BIRTHDAY DAY OFF You are entitled to an additional day off for your birthday, from your first day of employment.
+* GREAT LOCAL DISCOUNTS This includes membership discounts with Soho Friends, local restaurants and retailers in Westfield White City and Television Centre.
+
+
+ Publicis Groupe operates a hybrid working pattern with full time employees being office\\-based three days during the working week.
+   
+
+  
+
+ We are supportive of all candidates and are committed to providing a fair assessment process. If you have any circumstances (such as neurodiversity, physical or mental impairments or a medical condition) that may affect your assessment, please inform your Talent Acquisition Partner. We will discuss possible adjustments to ensure fairness. Rest assured, disclosing this information will not impact your treatment in our process.
+   
+
+  
+
+ Please make sure you check out the Publicis Career Page which showcases our Inclusive Benefits and our EAG’s (Employee Action Groups).","Advertising Services","https://uk.linkedin.com/company/publicisgroupeuk","https://media.licdn.com/dms/image/v2/D4E0BAQH47Ti7J6ejuw/company-logo_100_100/company-logo_100_100/0/1688391279374/publicisgroupeuk_logo?e=2147483647&v=beta&t=jTQKrXcMSz0WIvLHbY84oY1gt-yZuJT-sELJV5RYDow","","","","","","","","","","",""
+"li-4274753801","linkedin","https://www.linkedin.com/jobs/view/4274753801","","Junior Data Analyst","Intellect Group","London Area, United Kingdom","2025-07-23","fulltime","","","","","",False,"entry level","Engineering, Information Technology, and Finance","","","**Role** 
+ : Junior Data Analyst
+ 
+
+
+
+**Location** 
+ : London, UK (Hybrid)
+ 
+
+
+
+**Salary** 
+ : £35k–£40k (DOE)
+ 
+
+
+
+  
+
+
+
+
+
+ Are you a detail\\-driven analyst with a passion for data and automation? Join a specialist investment firm that partners with some of the most exciting high\\-growth software companies across Europe and the US. In this dynamic role, you’ll play a critical part in streamlining data\\-driven workflows and powering smarter investment decisions through innovative tech.
+ 
+
+
+
+  
+
+
+
+
+
+ This is an exciting opportunity for an early\\-career analyst to join a growing Data \\& Research function that sits at the heart of the firm’s investment strategy. You'll be part of a high\\-impact team driving digital transformation and working with modern tools to improve processes, insights, and decision\\-making.
+ 
+
+
+
+  
+
+
+
+
+
+**Your Responsibilities:** 
+
+
+
+* Build and enhance data pipelines: Help design and maintain proprietary automation systems that support investment strategy.
+* Improve internal platforms: Collaborate on projects to streamline workflows and eliminate manual processes using modern tooling.
+* Deliver high\\-quality insights: Monitor key data metrics and trends to support investment research and decision\\-making.
+* Ensure data integrity: Validate and enrich datasets to maintain accuracy, completeness, and consistency across internal platforms.
+* Evaluate tools and vendors: Assist in reviewing and optimising external data providers and technical solutions.
+* Contribute to innovation: Continuously explore opportunities to improve systems through experimentation, automation, and modern engineering practices.
+
+
+
+  
+
+
+
+
+
+**Requirements:** 
+
+
+
+* Bachelor’s degree in a STEM or data\\-oriented field such as Data Science, Computer Science, Engineering, Mathematics, or Economics.
+* A meticulous attention to detail and passion for accurate, high\\-quality data.
+* Interest in data automation and how technology enables smarter decision\\-making.
+* Exposure to or willingness to learn tools like Python, SQL, Zapier, n8n, or similar.
+* Ability to manage multiple projects simultaneously while delivering at pace.
+* Strong communication skills to collaborate across teams and share insights clearly with non\\-technical stakeholders.
+* A curiosity\\-driven mindset and eagerness to learn new technologies and data tools.
+
+
+
+  
+
+
+
+
+
+**It's A Bonus If You Have:** 
+
+
+
+* Experience with Google Cloud Platform, APIs, or GitHub.
+* Familiarity with structured data entry, validation processes, or workflow automation.
+* A genuine interest in private equity, venture capital, or financial technology.
+
+
+
+  
+
+
+
+
+
+**The Benefits:** 
+
+
+
+* Join a mission\\-driven firm focused on supporting exceptional software companies.
+* Opportunity to work on impactful projects that shape investment outcomes.
+* Hybrid work model with a collaborative London\\-based team.
+* Mentorship and growth opportunities tailored to early\\-career talent.
+* Competitive salary and long\\-term progression within a growing data function.
+
+
+
+  
+
+
+
+
+
+ If you're a motivated Junior Data Analyst eager to apply your skills in a fast\\-paced, tech\\-enabled environment, we’d love to hear from you. Apply now and be part of a team turning data into competitive advantage.","Financial Services and Venture Capital and Private Equity Principals","https://uk.linkedin.com/company/intellectgroup","https://media.licdn.com/dms/image/v2/D4E0BAQGDRp4xV6WTDg/company-logo_100_100/company-logo_100_100/0/1704182231315/intellectgroup_logo?e=2147483647&v=beta&t=tzQEsoWD9UoK9fwd4TilqVrf5WyZIVYrO1yPCyd1PNI","","","","","","","","","","",""
+"li-4271338490","linkedin","https://www.linkedin.com/jobs/view/4271338490","","Data Analyst","YunoJuno","London Area, United Kingdom","2025-07-23","contract","","","","","",False,"mid-senior level","Information Technology","","","**Data Analyst \\- Data Migration to Workday HCM / Freelance (Inside IR35\\)** 
+
+
+
+
+  
+
+
+
+
+
+ You’ll be working closely with our colleagues across the ERP Transformation Team alongside our Finance, IT, Data \\& Tech teams and other broader functions to support our global employee data collection, reporting and updating. We are undergoing a large transformation across our People function and the ERP Transformation team has a vast array of projects with touchpoints across multiple projects. We need a data analyst to help us deliver accurate and timely global employee data reports whenever and however needed.
+ 
+
+
+
+  
+
+
+
+
+
+ We are building a holistic, sustainable and scalable People Operating Model enabled by Workday HCM and other technology solutions, alongside new ways of working in our service delivery model, including payroll harmonization.
+ 
+
+
+
+  
+
+
+
+
+
+**What you'll do** 
+
+
+
+
+  
+
+
+
+
+
+ Reporting into the People Transformation Data Lead, you will:
+ 
+
+
+
+  
+
+
+
+
+
+ · Become the company's subject matter expert in all things related to global employee data with curiosity and a willingness to dive into the details to understand the data, it sources and definitions.
+ 
+
+
+
+ · Filter and “clean” data by reviewing validation reports.
+ 
+
+
+
+ · Update data within various source systems, which will require an understanding of our data lineage.
+ 
+
+
+
+ · Identify opportunities to establish and/or improve operational processes to update and maintain our data, improving quality and implementing scalable solutions for our employee data lifecycle.
+ 
+
+
+
+ · Document end to end data entry, update, and reporting processes.
+ 
+
+
+
+ · Assist with communications notifying stakeholders of new/improved processes.
+ 
+
+
+
+ · Responsible for stakeholder issue resolution.
+ 
+
+
+
+ · Assist with future upgrades and system enhancements which may include new software.
+ 
+
+
+
+ · Interpret stakeholder data reporting requirements, analyse data and provide outgoing reports.
+ 
+
+
+
+ · Scope out and support projects related to our data that span functions.
+ 
+
+
+
+ · Implement metrics and timelines with any data project required.
+ 
+
+
+
+ · Manage multiple data\\-related projects at one time, identifying and raising risks, dependencies, and prioritization concerns.
+ 
+
+
+
+  
+
+
+
+
+
+**What you'll need:** 
+
+
+
+
+  
+
+
+
+
+
+ · Analytical, quantitative, and problem\\-solving skills
+ 
+
+
+
+ · HCM / People Data Experience; Workday HCM a plus
+ 
+
+
+
+ · Workday Enterprise Interface Builder experience
+ 
+
+
+
+ · Experience of Data visualization tools
+ 
+
+
+
+ · Willingness to learn new tools and systems
+ 
+
+
+
+ · Ability to effectively communicate across a global community which requires an openness to diversity of thought, backgrounds and cultures
+ 
+
+
+
+ · Technology experience or interest
+ 
+
+
+
+ · Excellent verbal, written and interpersonal skills
+ 
+
+
+
+ · Comfortable in dealing with all levels of company leadership
+ 
+
+
+
+ · Team player but also able to determine workload and be self\\-motivated
+ 
+
+
+
+ · General enthusiasm for growth and a willingness to be hands on
+ 
+
+
+
+  
+
+
+
+
+
+**Start date: 4th August** 
+
+
+
+
+**Duration: 12 month contract** 
+
+
+
+
+**Location: London (some days on\\-site required)** 
+
+
+
+
+**Rate: £550\\-575 per day \\*\\* INSIDE IR35 \\*\\***","Technology, Information and Media","https://uk.linkedin.com/company/yunojuno","https://media.licdn.com/dms/image/v2/D4E0BAQEKCW9bCEWH2A/company-logo_100_100/B4EZfKx7RTHgAQ-/0/1751453775300/yunojuno_logo?e=2147483647&v=beta&t=2zVfzNtvXYrk2pN2WtiAS3k6o3NO6txZeesLY_JQdq0","","","","","","","","","","",""
 "li-4266954996","linkedin","https://www.linkedin.com/jobs/view/4266954996","","Data Analyst","Martello Talent","","2025-07-17","fulltime","","","","","",True,"mid-senior level","Analyst","","","**Senior Data Analyst (Fully Remote)** 
 
 

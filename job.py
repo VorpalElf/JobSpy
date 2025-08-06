@@ -2,7 +2,7 @@ import csv
 from jobspy import scrape_jobs
 import pandas as pd
 
-with open("proxies_list.txt") as f:
+with open("Proxies/working_proxies.txt") as f:
     proxy_list = [line.strip() for line in f if line.strip()]
 
 jobs = scrape_jobs(

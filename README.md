@@ -29,13 +29,17 @@ JobSpy is a Python-based tool designed to help users collect, analyze, and manag
    ```
    *(If no requirements.txt is present, install any needed packages manually.)*
 3. **Prepare proxy list**
+   - Go to `Proxies` folder
    - Add your proxies to `proxies_list.txt`, one per line.
+   - Please add proxies that support HTTPS socket and with a low latency.
 4. **Test proxies**
+   - You may want to test your proxies to see check for connection status and speed
    ```sh
    python proxies_test.py
    ```
    - Working proxies will be saved to `working_proxies.txt`.
 5. **Run the job scraper**
+   - Go back to the root folder (i.e. `JobSpy`)
    ```sh
    python job.py
    ```

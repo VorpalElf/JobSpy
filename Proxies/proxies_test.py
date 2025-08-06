@@ -1,8 +1,8 @@
 import requests
 import time
 
-input_file = "proxies_list.txt"
-output_file = "working_proxies.txt"
+input_file = "Proxies/proxies_list.txt"
+output_file = "Proxies/working_proxies.txt"
 
 with open(input_file) as f:
     proxies = [line.strip() for line in f if line.strip()]
@@ -12,7 +12,7 @@ working = []
 success_count = 0
 failed_count = 0
 
-max_response_time = 2  # seconds
+max_response_time = 10  # seconds
 
 for idx, proxy in enumerate(proxies, 1):
     try:
