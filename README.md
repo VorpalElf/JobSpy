@@ -1,112 +1,71 @@
-# JobSpy (Runner / CLI)
 
-JobSpy Runner is a lightweight command‑line wrapper around the upstream `jobspy` library that lets you quickly scrape job listings (e.g. LinkedIn) with proxy rotation and export them to CSV (optionally with numbered rows).
+# JobSpy Runner (CLI)
 
-> NOTE: This repository adds a CLI helper package named `jobspy-runner` to avoid clashing with the existing `jobspy` dependency on PyPI.
+JobSpy Runner is a CLI tool for scraping job listings (e.g. LinkedIn) using the `jobspy` library, with proxy rotation and CSV export.
 
 ## Features
-* Proxy list + rotation support
-* CSV export + optional numbered CSV
-* Simple CLI: `jobspy-run --search "Data Analyst" --location "United Kingdom"`
+- Proxy rotation
+- CSV export (optionally numbered)
+- Simple CLI interface
 
-## Installation
+## Installation & Setup
+Recommended: use a Python virtual environment.
 
-### From PyPI (after you publish)
 ```bash
-pip install jobspy-runner
+# Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install required modules
+pip install -r requirements.txt
 ```
 
-### From source (this repository)
+If you need the latest `jobspy`:
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/JobSpy.git
-cd JobSpy
-pip install .
+pip install -U python-jobspy
 ```
 
-### Dev (editable) install
+## Usage
+Run the CLI with required arguments:
 ```bash
-pip install -e .
+python3 jobspy_runner/cli.py --search "Software Engineer" --location "New York"
 ```
 
-### Using pipx
+
+Optional arguments:
+
+Optional arguments (short flags available):
+- `--sites`, `-s` linkedin indeed (default: linkedin)
+- `--results`, `-r` 20 (default: 10)
+- `--proxies`, `-p` <your_proxies_file> (default: Proxies/proxies_list.txt)
+- `--numbered`, `-n` (write numbered CSV)
+- `--out`, `-o` jobs.csv (output path)
+- `--description`, `-d` (fetch description text; no description by default)
+
+See all options:
 ```bash
-pipx install jobspy-runner
+python jobspy_runner/cli.py --help
 ```
 
-## Quick Start
-```bash
-jobspy-run \
-   --search "Data Analyst" \
-   --location "United Kingdom" \
-   --results 200 \
-   --proxies Proxies/working_proxies.txt \
-   --numbered --drop-id
-```
-Outputs:
-* `jobs.csv`
-* `jobs_numbered.csv` (if `--numbered`)
-
-## CLI Options
-| Option | Description |
-|--------|-------------|
-| `--search` | Job title / keywords (required) |
-| `--location` | Location text (required) |
-| `--sites` | Space separated site names (default: linkedin) |
-| `--results` | Number of results wanted (default 100) |
-| `--proxies` | Path to working proxies file (default Proxies/working_proxies.txt) |
-| `--no-description` | Skip fetching description text |
-| `--numbered` | Emit a second numbered CSV |
-| `--drop-id` | Drop the original id column in numbered CSV |
-| `--out` | Output CSV path (default jobs.csv) |
-
-## Preparing & Testing Proxies
-1. Put candidate proxies (HTTPS, low latency) in `Proxies/proxies_list.txt`.
-2. Test them:
-```bash
-python Proxies/proxies_test.py
-```
-3. Use generated `Proxies/working_proxies.txt` for scraping.
-
-## Library Usage Example
-```python
-from jobspy import scrape_jobs
-jobs = scrape_jobs(site_name=["linkedin"], search_term="Data Analyst", location="United Kingdom", results_wanted=50, linkedin_fetch_description=True)
-jobs.to_csv("jobs.csv", index=False)
-```
-
-## Packaging & Publishing
-Build and upload wheels instead of providing a video demo:
-```bash
-python -m pip install --upgrade build twine
-python -m build
-python -m twine upload dist/*  # or --repository testpypi first
-```
-After publishing, users can run:
-```bash
-pip install jobspy-runner
-jobspy-run --search "Data Analyst" --location "United Kingdom"
-```
-
-## Standalone Executable (Alternative)
-Create a binary for a GitHub Release:
-```bash
-pip install pyinstaller
-pyinstaller -F -n jobspy-runner jobspy_runner/cli.py
-```
-Executable appears in `dist/`.
+## Proxy Setup
+1. Add proxies to `Proxies/proxies_list.txt` (one per line).
+2. Test proxies:
+   ```bash
+   python Proxies/proxies_test.py
+   ```
+3. Use `Proxies/working_proxies.txt` for scraping.
 
 ## Project Structure
 ```
-jobspy_runner/        # CLI package
-   cli.py              # Entry point
-job.py                # Original script
-job_multi.py          # Multithread example
-Proxies/              # Proxy list + tester
+jobspy_runner/cli.py      # CLI entry point
+Proxies/                  # Proxy list & tester
+requirements.txt          # Python dependencies
+pyproject.toml            # Project metadata
 ```
 
 ## Notes
-* Respect site Terms of Service.
-* Use responsible scraping intervals.
+- Respect site Terms of Service.
+- Use responsible scraping intervals.
 
 ## License
-Add a LICENSE file and update `pyproject.toml` before publishing.
+See LICENSE file.
