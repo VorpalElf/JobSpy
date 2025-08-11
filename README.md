@@ -21,13 +21,7 @@ pip install -r requirements.txt
 
 If you need the latest `jobspy`:
 ```bash
-<<<<<<< HEAD
-git clone https://github.com/VorpalElf/JobSpy.git
-cd JobSpy
-pip install .
-=======
 pip install -U python-jobspy
->>>>>>> 6a49e12 (Add proxy testing functionality and update README with usage instructions)
 ```
 # Approach 1: Executable
 
