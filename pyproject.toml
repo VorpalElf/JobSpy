@@ -1,0 +1,27 @@
+# Adjust metadata before publishing
+[build-system]
+requires = ["hatchling>=1.21.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jobspy-runner"
+version = "0.1.0"
+description = "CLI helper for running job searches with the jobspy library using proxies and CSV export"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "jobspy",
+  "pandas"
+]
+keywords = ["jobs", "scraping", "jobspy", "cli", "proxies"]
+authors = [ { name = "YOUR NAME", email = "you@example.com" } ]
+
+[project.urls]
+Homepage = "https://github.com/REPLACE_ME/JobSpy"
+Repository = "https://github.com/REPLACE_ME/JobSpy"
+
+[project.scripts]
+jobspy-run = "jobspy_runner.cli:main"
+
+[tool.hatch.build]
+include = ["jobspy_runner"]
