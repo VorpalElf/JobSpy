@@ -19,10 +19,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-If you need the latest `jobspy`:
-```bash
-pip install -U python-jobspy
-```
 # Approach 1: Executable
 
 The compiled executable can be found in your project folder:
