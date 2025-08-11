@@ -34,5 +34,28 @@ jobs_numbered.csv
 # Proxies output
 Proxies/working_proxies.txt
 
-# Other
-*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+*.db
+*.pyc
+
+# PyInstaller build artifacts
+build/
+dist/
+!dist/jobspy-runner
+*.spec
+*.toc
+*.pkg
+*.zip
+*.html
+*.txt
+localpycs/

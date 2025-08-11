@@ -1,5 +1,6 @@
 import requests
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 input_file = "Proxies/proxies_list.txt"
 output_file = "Proxies/working_proxies.txt"
@@ -12,9 +13,9 @@ working = []
 success_count = 0
 failed_count = 0
 
-max_response_time = 10  # seconds
+max_response_time = 7  # seconds
 
-for idx, proxy in enumerate(proxies, 1):
+def check_proxy(proxy):
     try:
         start = time.time()
         resp = requests.get(
@@ -24,22 +25,32 @@ for idx, proxy in enumerate(proxies, 1):
         )
         elapsed = time.time() - start
         if resp.status_code == 200 and elapsed <= max_response_time:
+            return (proxy, True, elapsed, resp.status_code, None)
+        else:
+            return (proxy, False, elapsed, resp.status_code, None)
+    except Exception as e:
+        return (proxy, False, None, None, str(e))
+
+with ThreadPoolExecutor(max_workers=20) as executor:
+    futures = {executor.submit(check_proxy, proxy): proxy for proxy in proxies}
+    for idx, future in enumerate(as_completed(futures), 1):
+        proxy, success, elapsed, status, error = future.result()
+        if success:
             print(f"{proxy}: OK ({elapsed:.2f}s)")
             working.append(proxy)
             success_count += 1
         else:
-            print(f"{proxy}: Status {resp.status_code} ({elapsed:.2f}s)")
+            if error:
+                print(f"{proxy}: Failed ({error})")
+            else:
+                print(f"{proxy}: Status {status} ({elapsed:.2f}s)")
             failed_count += 1
-    except Exception as e:
-        print(f"{proxy}: Failed ({e})")
-        failed_count += 1
-    print(f"Progress: {idx}/{total_proxies}\n")
+        print(f"Progress: {idx}/{total_proxies}\n")
 
 with open(output_file, "w") as f:
     for proxy in working:
         f.write(proxy + "\n")
 
 print(f"Working proxies saved to {output_file}")
-print(f"Working (fast) proxies saved to {output_file}")
 print(f"Successful proxies: {success_count}/{total_proxies}")
 print(f"Failed proxies: {failed_count}/{total_proxies}")
