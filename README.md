@@ -18,7 +18,7 @@ pip install jobspy-runner
 
 ### From source (this repository)
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/JobSpy.git
+git clone https://github.com/VorpalElf/JobSpy.git
 cd JobSpy
 pip install .
 ```
