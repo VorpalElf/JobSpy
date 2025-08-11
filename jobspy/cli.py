@@ -16,7 +16,7 @@ def parse_args(argv=None):
     p.add_argument("--location", required=True, help="Job location (city, country, etc.)")
     p.add_argument("--sites", "-s", nargs="*", default=["linkedin"], help="Sites to query (default: linkedin)")
     p.add_argument("--results", "-r", type=int, default=10, help="Number of results wanted (default: 10)")
-    p.add_argument("--proxies", "-p", type=Path, default=Path("Proxies/proxies_list.txt"), help="Path to working proxies file")
+    p.add_argument("--proxies", "-p", type=Path, default=Path("Proxies/working_proxies.txt"), help="Path to working proxies file")
     p.add_argument("--out", "-o", type=Path, default=Path("jobs.csv"), help="Output CSV path (default: jobs.csv)")
     p.add_argument("--description", "-d", action="store_true", help="Fetch description text (LinkedIn)")
     p.add_argument("--numbered", "-n", action="store_true", help="Also write numbered CSV (jobs_numbered.csv)")

@@ -10,10 +10,10 @@
 
 
 ## Installation
-
 Install the package directly from PyPI:
 ```bash
 pip install job-check
+pip install -U python-jobspy
 ```
 
 
