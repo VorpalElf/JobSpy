@@ -1,4 +1,3 @@
-
 # JobSpy Runner (CLI)
 
 JobSpy Runner is a CLI tool for scraping job listings (e.g. LinkedIn) using the `jobspy` library, with proxy rotation and CSV export.
@@ -9,7 +8,7 @@ JobSpy Runner is a CLI tool for scraping job listings (e.g. LinkedIn) using the 
 - Simple CLI interface
 
 ## Installation & Setup
-Recommended: use a Python virtual environment.
+You MUST Use a Python virtual environment.
 
 ```bash
 # Create and activate a virtual environment
@@ -24,8 +23,28 @@ If you need the latest `jobspy`:
 ```bash
 pip install -U python-jobspy
 ```
+# Approach 1: Executable
 
-## Usage
+The compiled executable can be found in your project folder:
+`dist/jobspy-runner`
+
+To run the executable, use:
+```bash
+./dist/jobspy-runner --search "Software Engineer" --location "New York"
+```
+
+If you want to run it from the project root, you can also copy or symlink it:
+```bash
+cp dist/jobspy-runner ./jobspy-runner
+./jobspy-runner --search "Software Engineer" --location "New York"
+```
+
+You can also use optional arguments, for example:
+```bash
+./jobspy-runner -s linkedin indeed -r 20 -n -o jobs.csv -d
+```
+
+## Approach 2: Terminal Command
 Run the CLI with required arguments:
 ```bash
 python3 jobspy_runner/cli.py --search "Software Engineer" --location "New York"
