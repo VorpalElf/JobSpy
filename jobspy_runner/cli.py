@@ -2,8 +2,9 @@ import argparse
 import csv
 import sys
 from pathlib import Path
-import pandas as pd
 from jobspy import scrape_jobs
+import pandas as pd
+
 
 
 def parse_args(argv=None):
@@ -11,15 +12,14 @@ def parse_args(argv=None):
         prog="jobspy-run",
         description="Run job searches via the jobspy library with proxy rotation and CSV export",
     )
-    p.add_argument("--search", "--search-term", dest="search_term", required=True, help="Search term / job title")
+    p.add_argument("--search", dest="search_term", required=True, help="Search term / job title")
     p.add_argument("--location", required=True, help="Job location (city, country, etc.)")
-    p.add_argument("--sites", nargs="*", default=["linkedin"], help="Sites to query (default: linkedin)")
-    p.add_argument("--results", type=int, default=100, help="Number of results wanted (default: 100)")
-    p.add_argument("--proxies", type=Path, default=Path("Proxies/working_proxies.txt"), help="Path to working proxies file")
-    p.add_argument("--out", type=Path, default=Path("jobs.csv"), help="Output CSV path (default: jobs.csv)")
-    p.add_argument("--no-description", action="store_true", help="Disable fetching description text (LinkedIn)")
-    p.add_argument("--numbered", action="store_true", help="Also write numbered CSV (jobs_numbered.csv)")
-    p.add_argument("--drop-id", action="store_true", help="Drop original id column in numbered CSV")
+    p.add_argument("--sites", "-s", nargs="*", default=["linkedin"], help="Sites to query (default: linkedin)")
+    p.add_argument("--results", "-r", type=int, default=10, help="Number of results wanted (default: 10)")
+    p.add_argument("--proxies", "-p", type=Path, default=Path("Proxies/proxies_list.txt"), help="Path to working proxies file")
+    p.add_argument("--out", "-o", type=Path, default=Path("jobs.csv"), help="Output CSV path (default: jobs.csv)")
+    p.add_argument("--description", "-d", action="store_true", help="Fetch description text (LinkedIn)")
+    p.add_argument("--numbered", "-n", action="store_true", help="Also write numbered CSV (jobs_numbered.csv)")
     return p.parse_args(argv)
 
 
@@ -31,7 +31,7 @@ def load_proxies(path: Path):
         return [ln.strip() for ln in f if ln.strip()]
 
 
-def run(search_term: str, location: str, sites, results: int, proxies_file: Path, out: Path, fetch_description: bool, make_numbered: bool, drop_id: bool):
+def run(search_term: str, location: str, sites, results: int, proxies_file: Path, out: Path, fetch_description: bool, make_numbered: bool):
     proxies = load_proxies(proxies_file)
     jobs = scrape_jobs(
         site_name=sites,
@@ -47,8 +47,6 @@ def run(search_term: str, location: str, sites, results: int, proxies_file: Path
     if make_numbered:
         df = jobs.copy()
         df.insert(0, "job_number", range(1, len(df) + 1))
-        if drop_id and "id" in df.columns:
-            df = df.drop(columns=["id"])
         numbered = out.parent / (out.stem + "_numbered" + out.suffix)
         df.to_csv(numbered, index=False)
         print(f"Wrote numbered CSV: {numbered}")
@@ -64,9 +62,8 @@ def main(argv=None):
         results=args.results,
         proxies_file=args.proxies,
         out=args.out,
-        fetch_description=not args.no_description,
+        fetch_description=args.description,
         make_numbered=args.numbered,
-        drop_id=args.drop_id,
     )
 if __name__ == "__main__":  # pragma: no cover
     main(sys.argv[1:])
